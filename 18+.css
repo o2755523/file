@@ -1,0 +1,32 @@
+
+iframe{
+    
+    width: 1000px;
+    height: 700px;
+}
+@media (max-width:800px){
+   iframe{
+    height: 500px;
+   }
+}
+@media (max-width:600px){
+   iframe{
+    height: 400px;
+   }
+}
+.colles{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+    }
+    .colle{
+        text-decoration: none;
+        background-color:blueviolet; 
+        padding: 5px;
+        color: white;
+        border-radius: 10px;
+        margin: 10px;
+    }
+    .colle:hover{
+        background-color: rgb(40, 40, 40);
+    }
