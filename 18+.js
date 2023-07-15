@@ -42,7 +42,7 @@ for (let inde = 0; inde < collection.length; inde++) {
     vidc.appendChild(vid)
     vid.className='colle'
     vid.target='videosplay'
-    vid.innerText=`video${inde}`
+    vid.innerText=`video ${inde+1}`
     vid.href=`https://streamtape.com/e/${collection[inde]}/`
       
 }
